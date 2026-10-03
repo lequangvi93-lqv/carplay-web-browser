@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000012C10000100000001 /* CarPlayWebBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000012C10000100000000 /* CarPlayWebBrowserApp.swift */; };
+		A10000022C10000100000001 /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000022C10000100000000 /* CarPlaySceneDelegate.swift */; };
+		A10000032C10000100000001 /* WebBrowserCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000032C10000100000000 /* WebBrowserCarViewController.swift */; };
+		A10000042C10000100000001 /* iPhoneWebControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000042C10000100000000 /* iPhoneWebControlView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000002C10000100000000 /* CarPlayWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPlayWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000012C10000100000000 /* CarPlayWebBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayWebBrowserApp.swift; sourceTree = "<group>"; };
+		A10000022C10000100000000 /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		A10000032C10000100000000 /* WebBrowserCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserCarViewController.swift; sourceTree = "<group>"; };
+		A10000042C10000100000000 /* iPhoneWebControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneWebControlView.swift; sourceTree = "<group>"; };
+		A10000052C10000100000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000062C10000100000000 /* CarPlayWebBrowser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarPlayWebBrowser.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000072C10000100000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000082C10000100000000 = {
+			isa = PBXGroup;
+			children = (
+				A10000092C10000100000000 /* CarPlayWebBrowser */,
+				A100000A2C10000100000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000092C10000100000000 /* CarPlayWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				A10000012C10000100000000 /* CarPlayWebBrowserApp.swift */,
+				A10000022C10000100000000 /* CarPlaySceneDelegate.swift */,
+				A10000032C10000100000000 /* WebBrowserCarViewController.swift */,
+				A10000042C10000100000000 /* iPhoneWebControlView.swift */,
+				A10000052C10000100000000 /* Info.plist */,
+				A10000062C10000100000000 /* CarPlayWebBrowser.entitlements */,
+			);
+			path = CarPlayWebBrowser;
+			sourceTree = "<group>";
+		};
+		A100000A2C10000100000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000002C10000100000000 /* CarPlayWebBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A100000B2C10000100000000 /* CarPlayWebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A100000C2C10000100000000 /* Build configuration list for PBXNativeTarget "CarPlayWebBrowser" */;
+			buildPhases = (
+				A100000D2C10000100000000 /* Sources */,
+				A10000072C10000100000000 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarPlayWebBrowser;
+			productName = CarPlayWebBrowser;
+			productReference = A10000002C10000100000000 /* CarPlayWebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A100000E2C10000100000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A100000B2C10000100000000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A100000F2C10000100000000 /* Build configuration list for PBXProject "CarPlayWebBrowser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000082C10000100000000;
+			productRefGroup = A100000A2C10000100000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A100000B2C10000100000000 /* CarPlayWebBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A100000D2C10000100000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000012C10000100000001 /* CarPlayWebBrowserApp.swift in Sources */,
+				A10000022C10000100000001 /* CarPlaySceneDelegate.swift in Sources */,
+				A10000032C10000100000001 /* WebBrowserCarViewController.swift in Sources */,
+				A10000042C10000100000001 /* iPhoneWebControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000102C10000100000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarPlayWebBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.carplaywebbrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+			};
+			name = Debug;
+		};
+		A10000112C10000100000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarPlayWebBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.carplaywebbrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+			};
+			name = Release;
+		};
+		A10000122C10000100000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarPlayWebBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.carplaywebbrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+			};
+			name = Debug;
+		};
+		A10000132C10000100000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarPlayWebBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.carplaywebbrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A100000C2C10000100000000 /* Build configuration list for PBXNativeTarget "CarPlayWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000122C10000100000000 /* Debug */,
+				A10000132C10000100000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A100000F2C10000100000000 /* Build configuration list for PBXProject "CarPlayWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000102C10000100000000 /* Debug */,
+				A10000112C10000100000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A100000E2C10000100000000 /* Project object */;
+}
